@@ -1,0 +1,148 @@
+*{ margin:0;
+padding: 0;
+box-sizing: border-box;
+font-family:  "Poppins", sans-serif;}
+
+
+.top {width: 100%;
+min-height: 100vh;
+background-image: linear-gradient(rgba(0, 0, 0, 0.372)), url(/Images/Forest.png);
+background-position: center;
+background-size: cover;
+overflow:hidden;
+position: fixed;
+}
+
+nav{ 
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color:rgba(255, 255, 255, 0.75);
+width: 100%;
+z-index: 999;
+position: sticky;
+top: 0;
+box-shadow: 0 10px 20px;
+backdrop-filter: blur(8px);
+}
+
+
+
+nav ul li {display: inline-block;
+list-style: none;
+margin: 10px 20px;
+padding: 40px;
+}
+
+nav ul li a {
+text-decoration: none;
+color:#464646;
+font-weight: 400;
+padding-bottom: 4px; 
+
+}
+
+.Contact a{ color: #464646;
+text-decoration: none; padding-right: 40px;
+transform: translateY(-40px) }
+
+h1{ color: White;
+font-size: 60px;
+text-align: center;
+font-family: sans-serif;
+padding: 60px 10px 10px 10px;
+margin: 0;
+}
+
+p{ text-align: center;
+color: white;
+font-size: 1.5rem;
+
+}
+
+.sub{ color: white; font-size: 1rem;
+padding: 10px 10px;}
+
+.cta {
+  margin-top: 20px;
+  padding: 10px 24px;
+  border-radius: 25px;
+  background: white;
+  color: #2f4f4f;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.projects {
+  padding: 80px 10%;
+  text-align: center;}
+  
+
+.projects h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.projects-box {
+  background-color: white;
+  max-width: 800px;         
+  padding: 30px 60px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  margin: auto;
+}
+
+.project_top{ width: 100%;
+min-height: 100vh;
+background-color: azure;
+;background-repeat: no-repeat;
+background-position: fixed;}
+
+#Description{ color: black;}
+
+.imagebox {width: 300px;
+height: 200px;
+border: 2px solid black;
+overflow: hidden;
+margin: 20%;
+}
+
+.imagebox img{ width: 100%;
+height: 100%;
+object-fit: cover;}
+
+
+.container .card .intro .P1{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+
+.container { display: flex;
+}
+ .P1{ height: 500px;
+  width: 350px;
+   border-radius: 3px;
+   }
+
+ .body{ display: flex;
+   justify-content: center;
+  height: 100hv;
+align-items: center;}
+
+.card{height: 500px;
+margin: 50px;
+box-shadow: 5px 5px 20px black;
+overflow: hidden;
+
+}
+
+.Intro{ height: 200px;
+  width: 350px;
+  padding:6px;
+  box-sizing: border-box;
+  position: absolute;
+
+}
